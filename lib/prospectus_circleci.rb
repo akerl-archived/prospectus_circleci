@@ -2,7 +2,7 @@ require 'keylime'
 require 'open-uri'
 
 module ProspectusCircleci
-  GOOD_STATUSES = %w[success fixed running].freeze
+  GOOD_STATUSES = %w[success fixed running new not_running scheduled].freeze
 
   ##
   # Helper for automatically adding build status check
