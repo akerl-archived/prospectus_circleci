@@ -20,12 +20,12 @@ module ProspectusCircleci
 
           expected do
             static
-            set actual_val
+            set expected_val
           end
 
           actual do
             static
-            set expected_val
+            set actual_val
           end
         end
       end
