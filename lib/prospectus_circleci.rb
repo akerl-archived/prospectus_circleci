@@ -45,7 +45,7 @@ module ProspectusCircleci
     end
 
     def api_req(path)
-      JSON.parse(open(url(path)).read)
+      JSON.parse(open(url(path)).read) # rubocop:disable Security/Open
     end
 
     def url(path)
