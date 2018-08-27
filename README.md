@@ -2,7 +2,6 @@ prospectus_circleci
 =========
 
 [![Gem Version](https://img.shields.io/gem/v/prospectus_circleci.svg)](https://rubygems.org/gems/prospectus_circleci)
-[![Dependency Status](https://img.shields.io/gemnasium/akerl/prospectus_circleci.svg)](https://gemnasium.com/akerl/prospectus_circleci)
 [![Build Status](https://img.shields.io/circleci/project/akerl/prospectus_circleci.svg)](https://circleci.com/gh/akerl/prospectus_circleci)
 [![Coverage Status](https://img.shields.io/codecov/c/github/akerl/prospectus_circleci.svg)](https://codecov.io/github/akerl/prospectus_circleci)
 [![Code Quality](https://img.shields.io/codacy/c5623564a4034ece993510d28edb19de.svg)](https://www.codacy.com/app/akerl/prospectus_circleci)
