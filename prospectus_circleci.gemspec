@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'prospectus_circleci'
-  s.version     = '0.0.10'
+  s.version     = '0.1.0'
   s.date        = Time.now.strftime('%Y-%m-%d')
 
   s.summary     = 'Prospectus helpers for circleci'
