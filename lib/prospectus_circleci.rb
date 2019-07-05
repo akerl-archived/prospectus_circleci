@@ -7,8 +7,9 @@ module ProspectusCircleci
   ##
   # Helper for automatically adding build status check
   class Build < Module
-    def initialize(repo_slug)
+    def initialize(repo_slug, params = {})
       @repo_slug = repo_slug || raise('No repo specified')
+      @options = params
     end
 
     def extended(other) # rubocop:disable Metrics/MethodLength
@@ -53,7 +54,7 @@ module ProspectusCircleci
     end
 
     def base_url
-      'https://circleci.com'
+      @base_url ||= @options[:base_url] || 'https://circleci.com'
     end
 
     def token
